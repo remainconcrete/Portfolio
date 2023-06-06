@@ -1,0 +1,196 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(123, 169, 90);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.centered {
+    margin: auto;
+    width: 1450px;
+}
+
+.yellow {
+    background-color: rgb(248, 248, 120);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 247, 195);
+    width: 1450px;
+    margin: auto;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 40px;
+}
+
+.nav-center {
+    margin: 8px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(75, 119, 45);
+    font-family: 'Raleway', sans-serif, 400;
+}
+
+#brand-name {
+    margin-right: 520px;
+    margin-top: 2px;
+    font-size: 23px;
+    font-family: 'Kalam', cursive;
+    color: rgb(75, 119, 45);
+}
+
+#cart {
+    margin-left: 520px;
+    margin-top: 6px;
+
+}
+
+#main {
+    display: flex;
+}
+
+#discover {
+    font-size: 90px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    width: 450px;
+    margin-top: 120px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#original {
+    margin: 0px;
+    font-weight: normal;
+    width: 450px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif, 400;
+}
+
+#shop {
+    color: rgb(123, 169, 90);
+    background-color: black;
+    padding: 15px 35px;
+    border-radius: 100px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-style: none;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif, 400;
+}
+
+#mainspices {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.spices {
+    width: 300px;
+}
+
+#runningline {
+    background-color: rgb(231, 228, 251);
+    text-transform: uppercase;
+    padding: 2px 0px;
+    margin: -733px 0px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cherry {
+    background-image: url("img/cherry.png");
+}
+
+#goods {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.item {
+    margin: auto;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    width: 460px;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.sname {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.spices-pics {
+    width: 400px;
+    height: 320px;
+}
+
+.spices {
+    margin: 0px 30px;
+}
+
+.buttons {
+    margin: 0px 30px;
+}
+
+.amount {
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 13px;
+    text-align: center;
+    word-spacing: 170px;
+    margin-bottom: 10px;
+    width: 371px;
+}
+
+.add {
+    color: rgb(248, 248, 120);
+    background-color: black;
+    padding: 15px;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#cherry {
+    width: 32px;
+    margin: 10px 5px;
+}
+
+#stickerb {
+    width: 100px;
+}
+
+#sticker {
+    margin-top: 730px;
+    margin-left: 1410px;
+
+}
+
+#top_pick {
+    margin: -70px 33px;
+    text-transform: uppercase;
+    transform: rotate(40deg);
+    font-family: 'Roboto Slab', serif;
+}
