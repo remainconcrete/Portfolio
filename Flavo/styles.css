@@ -98,17 +98,19 @@ nav {
 }
 
 #runningline {
-    background-color: rgb(231, 228, 251);
-    text-transform: uppercase;
-    padding: 2px 0px;
     margin: -733px 0px;
-    display: flex;
-    font-family: 'Raleway', sans-serif;
+    background: url(img/runningline.PNG) repeat-x;
+    width: 100%;
+    height: 72px;
+    background-size: 497px 72px;
+    animation: slide-right 9s linear infinite;
 }
 
-#cherry {
-    background-image: url("img/cherry.png");
-}
+@keyframes slide-right {
+    to {
+        background-position: 497px;      
+    }
+  }
 
 #goods {
     display: flex;
@@ -182,14 +184,19 @@ nav {
     width: 100px;
 }
 
-#sticker {
+#stickerrr {
     margin-top: 730px;
     margin-left: 1410px;
 
 }
 
+#sticker {
+    position: absolute;
+    margin: -620px 360px;
+}
+
 #top_pick {
-    margin: -70px 33px;
+    margin: -75px 33px;
     text-transform: uppercase;
     transform: rotate(40deg);
     font-family: 'Roboto Slab', serif;
