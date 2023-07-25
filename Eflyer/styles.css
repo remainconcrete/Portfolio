@@ -1,0 +1,415 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#banner {
+    background-image: url("img/banner.png");
+    background-size: 100%;
+
+}
+
+nav {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    margin: 0px auto;
+    padding: 20px 20px;
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+    justify-content: center;
+    font-size: 18px;
+}
+
+#main-line {
+    margin-top: 40px;
+}
+
+#main-line-items {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#main-line-items div {
+    margin-right: 30px;
+}
+
+#main-line-items div:last-child {
+    margin-right: 0px;
+}
+
+#burger-menu {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/burger-menu.png);
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+
+#main-line2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 30px 0px;
+}
+
+#main-text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+}
+
+#main-button {
+    border-style: none;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 16px 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+#main-swipe-left {
+    margin: 110px 0px;
+    cursor: pointer;
+}
+
+#swipe-left {
+    background-image: url(img/left-w.png);
+    padding: 15px 25px;
+}
+
+#swipe-right {
+    background-image: url(img/right-w.png);
+    padding: 15px 25px;
+}
+
+#main-swipe-right {
+    margin: 110px 0px;
+    cursor: pointer;
+}
+
+#main-stuff {
+    text-align: center;
+}
+
+nav a {
+    margin: 0px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#brand-name {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.section-name {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.goods {
+    display: flex;
+    margin: 0px 170px;
+
+}
+
+.item {
+    box-shadow: 0px 0px 10px grey;
+    width: 400px;
+    height: 500px;
+    margin: 15px;
+}
+
+.item-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.item-price {
+    text-align: center;
+}
+
+.red {
+    color: orangered;
+}
+
+.item-img {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+    min-height: 0px;
+}
+
+.item-img img {
+    max-width: 100%;
+    height: 320px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.buy-now {
+    color: orangered;
+    background-color: transparent;
+    border-style: none;
+    font-weight: 800;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.see-more {
+    background-color: transparent;
+    border-style: none;
+    font-size: medium;
+    margin-left: 180px;
+}
+
+.swipe-l {
+    background-image: url('img/left.png');
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    background-size: 70px;
+    margin-left: 650px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.swipe-r {
+    background-image: url('img/right.png');
+    width: 75px;
+    height: 75px;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 60px;
+}
+
+#all-category {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border-style: none;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#search-bar {
+    width: 400px;
+    height: 36px;
+}
+
+#search-bar-div {
+    display: flex;
+}
+
+#lang {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(30, 30, 30);
+    height: 500px;
+}
+
+#footer-brand {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+#subscription {
+    width: 50%;
+    margin: auto;
+    background-color: transparent;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: white;
+    padding-bottom: 15px;
+}
+
+#email {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    width: 655px;
+    color: white;
+}
+
+#email:focus {
+    outline: none;
+}
+
+#email-button {
+    color: orangered;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#search-button {
+    background-image: url('img/maglass.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 53px;
+    height: 53px;
+    border-style: none;
+    position: absolute;
+    margin-left: 361px;
+    margin-top: -5.9px;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+#phone-number {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#phone-number a {
+    text-decoration: none;
+    color: white;
+}
+
+#phone-number a:hover {
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+
+#copyright a {
+    text-decoration: none;
+    color: white;
+}
+
+#copyright a:hover {
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+
+#cartacc {
+    display: flex;
+}
+
+#cart {
+    display: flex;
+    cursor: pointer;
+}
+
+#cartacc p {
+    color: white;
+    margin: 6px 0px 0px 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#acc {
+    display: flex;
+    cursor: pointer;
+}
+
+#ring-cont {
+    display: flex;
+    justify-content: center;
+}
+
+#ring-div {
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(212, 124, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 50%;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#ring {
+    background-color: white;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    display: inline-flex;
+    position: absolute;
+    margin: 20px;
+}
+
+body a:hover {
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+
+#footer-nav a:hover {
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+
+.see-more:hover {
+    color: orangered;
+    transition: all .3s ease-in-out;
+}
+
+body button:hover {
+    cursor: pointer;
+}
