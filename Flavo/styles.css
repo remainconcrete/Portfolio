@@ -44,12 +44,13 @@ nav {
     font-size: 23px;
     font-family: 'Kalam', cursive;
     color: rgb(75, 119, 45);
+    cursor: pointer;
 }
 
 #cart {
     margin-left: 520px;
     margin-top: 6px;
-
+    cursor: pointer;
 }
 
 #main {
@@ -83,6 +84,7 @@ nav {
     border-style: none;
     margin-bottom: 50px;
     font-family: 'Raleway', sans-serif, 400;
+    cursor: pointer;
 }
 
 #mainspices {
@@ -108,9 +110,9 @@ nav {
 
 @keyframes slide-right {
     to {
-        background-position: 497px;      
+        background-position: 497px;
     }
-  }
+}
 
 #goods {
     display: flex;
@@ -172,7 +174,7 @@ nav {
     width: 400px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-
+    cursor: pointer;
 }
 
 #cherry {
@@ -182,12 +184,6 @@ nav {
 
 #stickerb {
     width: 100px;
-}
-
-#stickerrr {
-    margin-top: 730px;
-    margin-left: 1410px;
-
 }
 
 #sticker {
