@@ -92,12 +92,12 @@ nav {
 
 #swipe-left {
     background-image: url(img/left-w.png);
-    padding: 15px 25px;
+    padding: 14px 25px;
 }
 
 #swipe-right {
     background-image: url(img/right-w.png);
-    padding: 15px 25px;
+    padding: 14px 25px;
 }
 
 #main-swipe-right {
@@ -130,7 +130,7 @@ nav a {
 
 .goods {
     display: flex;
-    margin: 0px 170px;
+    justify-content: center;
 
 }
 
@@ -176,14 +176,24 @@ nav a {
     border-style: none;
     font-weight: 800;
     font-size: medium;
-    margin-left: 10px;
+}
+
+.see-buy {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5px;
 }
 
 .see-more {
     background-color: transparent;
     border-style: none;
     font-size: medium;
-    margin-left: 180px;
+}
+
+.goods-swipe {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
 }
 
 .swipe-l {
@@ -195,9 +205,7 @@ nav a {
     background-color: transparent;
     border-color: transparent;
     background-size: 70px;
-    margin-left: 650px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 50px;
 }
 
 .swipe-r {
@@ -209,7 +217,6 @@ nav a {
     background-size: 70px;
     background-color: transparent;
     border-color: transparent;
-    margin-left: 60px;
 }
 
 #all-category {
@@ -260,13 +267,14 @@ footer {
     border-width: 1px;
     border-color: white;
     padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #email {
     background-color: transparent;
     border: none;
     font-size: 20px;
-    width: 655px;
     color: white;
 }
 
@@ -290,7 +298,7 @@ footer {
     border-style: none;
     position: absolute;
     margin-left: 361px;
-    margin-top: -5.9px;
+    margin-top: -5.7px;
 }
 
 #footer-nav {
